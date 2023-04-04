@@ -86,7 +86,8 @@ export default function Home() {
                       </p>
                       <a
                           className="text-2xl uppercase p-2 rounded-lg shadow-black shadow-md hover:translate-y-1 bg-amber-500 font-mono font-bold text-zinc-100"
-                          href="#"
+                          href="https://api.whatsapp.com/send?phone=5547991064045"
+                          target="_blank"
                       >
                           Peça seu orçamento
                       </a>
