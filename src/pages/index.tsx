@@ -69,7 +69,7 @@ export default function Home() {
                   </div>
               </header>
               <section className="grow bg-zinc-300 flex flex-col items-center justify-center p-5">
-                  <div className="flex flex-col items-center justify-center xl:w-2/3 gap-4 mt-24">
+                  <div className="flex flex-col items-center justify-center xl:w-2/3 gap-4 max-[500px]:mt-24">
                       <h1 className="xl:text-5xl sm:text-3xl text-xl font-bold font-serif">
                           Com 15 anos de experiência, oferecemos as melhores
                           soluções em vidro temperado.
@@ -149,30 +149,30 @@ export default function Home() {
                       />
                   </div>
               </section>
-          </div>          
-              <div className="flex items-center flex-col ms gap-4 text-xl p-3 h-64">
-                  <Link href="/cortina">
-                      <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
-                          Cortina de Vidro
-                      </p>
-                  </Link>
-                  <Link href="/guarda">
-                      <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
-                          Guarda Corpo Piscina
-                      </p>
-                  </Link>
-                  <Link href="/box">
-                      <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
-                          Box de banheiro
-                      </p>
-                  </Link>
-                  <Link href="/pergolado">
-                      <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
-                          Pergolados
-                      </p>
-                  </Link>
-              </div>
-          
+          </div>
+          <div className="flex items-center flex-col ms gap-4 text-xl p-3 h-64">
+              <Link href="/cortina">
+                  <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
+                      Cortina de Vidro
+                  </p>
+              </Link>
+              <Link href="/guarda">
+                  <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
+                      Guarda Corpo Piscina
+                  </p>
+              </Link>
+              <Link href="/box">
+                  <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
+                      Box de banheiro
+                  </p>
+              </Link>
+              <Link href="/pergolado">
+                  <p className=" hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl p-2">
+                      Pergolados
+                  </p>
+              </Link>
+          </div>
+
           <Footer author={"João Paulo da Silva"} />
       </div>
   );
