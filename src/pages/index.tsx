@@ -37,7 +37,7 @@ export default function Home() {
               <link rel="icon" href="/favicon.ico" />
           </Head>
           <div className="flex flex-col min-h-screen bg-zinc-900">
-              <header className="fixed w-screen flex justify-center items-center gap-6 md:justify-between pr-8 p-3 bg-amber-50">
+              <header className="fixed w-screen flex justify-center items-center mb-3 gap-6 md:justify-between pr-8 p-3 bg-amber-50">
                   <div className="flex items-center gap-3">
                       <Image className="h-20 w-20" src={Logo} alt="logo" />
                       <p className="text-amber-900 text-4xl font-bold">
@@ -68,8 +68,8 @@ export default function Home() {
                       </a>
                   </div>
               </header>
-              <section className="grow bg-zinc-300 flex flex-col items-center justify-center p-3">
-                  <div className="flex flex-col items-center justify-center xl:w-2/3 gap-4">
+              <section className="grow bg-zinc-300 flex flex-col items-center justify-center p-5">
+                  <div className="flex flex-col items-center justify-center xl:w-2/3 gap-4 mt-24">
                       <h1 className="xl:text-5xl sm:text-3xl text-xl font-bold font-serif">
                           Com 15 anos de experiência, oferecemos as melhores
                           soluções em vidro temperado.
@@ -149,9 +149,8 @@ export default function Home() {
                       />
                   </div>
               </section>
-          </div>
-          <div className="container mx-auto mt-4">
-              <div className="flex items-center flex-col ms gap-4 text-xl p-3">
+          </div>          
+              <div className="flex items-center flex-col ms gap-4 text-xl p-3 h-64">
                   <Link href="/cortina">
                       <p className=" hover:text-zinc-200 hover:bg-amber-600 hidden sm:flex bg-amber-200 rounded-xl p-2">
                           Cortina de Vidro
@@ -173,7 +172,7 @@ export default function Home() {
                       </p>
                   </Link>
               </div>
-          </div>
+          
           <Footer author={"João Paulo da Silva"} />
       </div>
   );

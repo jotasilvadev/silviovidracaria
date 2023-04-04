@@ -38,7 +38,7 @@ export default function Services() {
             </header>
             <div className="flex justify-center items-center mt-40 w-4/5 md:w-1/2 md:flex gap-3 text-justify">
                 <div className="flex-col flex gap-2">
-                    <h2 className="text-3xl font-bold">Cortina de Vidro</h2>
+                    <h2 className="text-3xl font-bold">Guarda corpo de Piscina</h2>
                     <p className="text-xl">
                         O Guarda Corpo de Piscina utilizando vidro temperado e
                         película de proteção é uma opção elegante e segura para
