@@ -14,11 +14,6 @@ export default function Services() {
                     </p>
                 </div>
                 <div className="text-zinc-600  flex items-center gap-8">
-                    <Link href="/">
-                        <div className="text-xl p-3 hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl">
-                            <BsFillHouseFill />
-                        </div>
-                    </Link>
                     <a
                         href="https://api.whatsapp.com/send?phone=5547991064045"
                         target="_blank"
@@ -38,7 +33,9 @@ export default function Services() {
             </header>
             <div className="flex justify-center items-center mt-40 w-4/5 md:w-1/2 md:flex gap-3 text-justify">
                 <div className="flex-col flex gap-2">
-                    <h2 className="text-3xl font-bold">Guarda corpo de Piscina</h2>
+                    <h2 className="text-3xl font-bold">
+                        Guarda corpo de Piscina
+                    </h2>
                     <p className="text-xl">
                         O Guarda Corpo de Piscina utilizando vidro temperado e
                         película de proteção é uma opção elegante e segura para
@@ -82,6 +79,14 @@ export default function Services() {
                         uma escolha inteligente e de bom gosto para quem deseja
                         um espaço de lazer seguro, elegante e durável.
                     </p>
+                    <Link
+                        href="/"
+                        className="m-4 flex items-center justify-center"
+                    >
+                        <div className="text-xl p-3 hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl">
+                            <BsFillHouseFill />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -13,12 +13,7 @@ export default function Services() {
                         Silvio Vidraçaria
                     </p>
                 </div>
-                <div className="text-zinc-600  flex items-center gap-8">
-                    <Link href="/">
-                        <div className="text-xl p-3 hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl">
-                            <BsFillHouseFill />
-                        </div>
-                    </Link>
+                <div className="text-zinc-600  flex items-center gap-8">                    
                     <a
                         href="https://api.whatsapp.com/send?phone=5547991064045"
                         target="_blank"
@@ -83,6 +78,11 @@ export default function Services() {
                         vidro são uma solução moderna e sofisticada que agregam
                         conforto e elegância ao ambiente.
                     </p>
+                    <Link href="/" className="m-4 flex items-center justify-center">
+                        <div className="text-xl p-3 hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl">
+                            <BsFillHouseFill />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

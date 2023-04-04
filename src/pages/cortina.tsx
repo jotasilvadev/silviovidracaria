@@ -14,11 +14,6 @@ export default function Services() {
                     </p>
                 </div>
                 <div className="text-zinc-600  flex items-center gap-8">
-                    <Link href="/">
-                        <div className="text-xl p-3 hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl">
-                            <BsFillHouseFill />
-                        </div>
-                    </Link>
                     <a
                         href="https://api.whatsapp.com/send?phone=5547991064045"
                         target="_blank"
@@ -75,6 +70,14 @@ export default function Services() {
                         para ajudá-lo a tornar sua sacada um espaço ainda mais
                         especial!
                     </p>
+                    <Link
+                        href="/"
+                        className="m-4 flex items-center justify-center"
+                    >
+                        <div className="text-xl p-3 hover:text-zinc-200 hover:bg-amber-600 bg-amber-200 rounded-xl">
+                            <BsFillHouseFill />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
