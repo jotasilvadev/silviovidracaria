@@ -14,6 +14,7 @@ import q1 from "../assets/q1.jpg";
 import q2 from "../assets/q2.jpg";
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
       <div className="bg-amber-50">
@@ -34,8 +35,8 @@ export default function Home() {
                   name="viewport"
                   content="width=device-width, initial-scale=1"
               />
-              <link rel="icon" href="/favicon.ico" />
-          </Head>
+              <link rel="icon" href="/favicon.ico" />                        
+ </Head>
           <div className="flex flex-col min-h-screen bg-zinc-900">
               <header className="fixed w-screen flex justify-center items-center mb-3 gap-6 md:justify-between pr-8 p-3 bg-amber-50">
                   <div className="flex items-center gap-3">
