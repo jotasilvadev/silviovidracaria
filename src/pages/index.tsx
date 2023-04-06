@@ -22,7 +22,7 @@ export default function Home() {
               <meta
                   name="description"
                   content="Transforme sua casa em um verdadeiro lar com nossos serviços. Vidros para porta, box, janela, cortina de
-                          vidro, fechamento de sacada, guarda corpo de piscina, pergolados, espelhos com bizote e corrimão de aço inox. Garantimos a qualidade e segurança em cada projeto, Entre em contato agora e veja como podemos transformar o seu lar em um espaço ainda mais
+                          vidro, fechamento de sacada, guarda corpo de piscina, pergolados, espelhos com bizote e corrimão de aço inox. Garantimos a qualidade e segurança em cada projeto, entre em contato agora e veja como podemos transformar o seu lar em um espaço ainda mais
                           confortável e elegante."
               ></meta>
               <meta
