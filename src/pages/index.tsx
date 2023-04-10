@@ -36,18 +36,6 @@ export default function Home() {
                   content="width=device-width, initial-scale=1"
               />
               <link rel="icon" href="/favicon.ico" />
-              <script
-                  async
-                  src="https://www.googletagmanager.com/gtag/js?id=G-RZV4TZG9R6"
-              ></script>
-              <script>
-  window.dataLayer = window.dataLayer || [];
-  {/* @ts-ignore */}
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RZV4TZG9R6');
-</script>
           </Head>
           <div className="flex flex-col min-h-screen bg-zinc-900">
               <header className="fixed w-screen flex justify-center items-center mb-3 gap-6 md:justify-between pr-8 p-3 bg-amber-50">
